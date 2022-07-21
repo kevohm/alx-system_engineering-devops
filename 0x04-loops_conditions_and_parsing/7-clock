@@ -1,0 +1,18 @@
+#!/bin/bash
+x=1
+h=0
+while [ $x -le 60 ]
+do
+	if [ $x -eq 60 ]
+	then
+		x=0
+		echo "Hour: $h"
+		h=$(($h+1))
+	elif [ $h -eq 12 ] && [ $x -eq 59 ]
+	then
+		break
+	else
+		echo $x
+	fi
+	x=$(($x+1))
+done
