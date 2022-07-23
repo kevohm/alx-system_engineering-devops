@@ -2,7 +2,7 @@
 
 if [ $1 -ne "" ]
 then
-	echo usage: push <message> <file>
+	echo "usage: push <message> <file>"
 else
 	git add .
 	git commit -m "$1"
