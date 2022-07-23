@@ -1,7 +1,5 @@
-#!/bin/bash
-x=0
-until [ $x -eq 10 ]
-do
-	echo "Best School"
-	x=$(($x + 1))
-done
+#!/usr/bin/env bash
+# This scripts displays Holberton School 10 times.
+
+i=0
+until [ $i -eq 10 ]; do echo "Best School"; i=$(( i + 1 )); done
