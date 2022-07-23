@@ -1,18 +1,13 @@
-#!/bin/bash
-x=1
-h=0
-while [ $x -le 60 ]
-do
-	if [ $x -eq 60 ]
-	then
-		x=0
-		echo "Hour: $h"
-		h=$(($h+1))
-	elif [ $h -eq 12 ] && [ $x -eq 59 ]
-	then
-		break
-	else
-		echo $x
-	fi
-	x=$(($x+1))
+#!/usr/bin/env bash
+# This script prints hours with minutes for each hour
+
+i=0
+while [ $i -le 12 ]; do
+      echo "Hour: $i"
+      j=1
+      while [ $j -lt 60 ]; do
+      	    echo "$j"
+	    j=$(( j + 1 ))
+      done
+      i=$(( i + 1 ))
 done
