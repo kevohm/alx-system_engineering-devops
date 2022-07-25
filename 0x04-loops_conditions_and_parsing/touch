@@ -1,8 +1,0 @@
-#!/usr/bin/env bash
-if [ -f $1 ]
-then
-	for i in $(grep [0-9] $1)
-	do
-		 sed -i 's/\r$//' $i
-	done
-fi
