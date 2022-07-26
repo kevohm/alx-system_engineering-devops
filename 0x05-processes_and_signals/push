@@ -8,6 +8,8 @@ then
 	git add .
 	git commit -m "$1"
 	git push
+	sleep 3
+	clear
 else
 	echo "USAGE: push < message >" 
 fi
