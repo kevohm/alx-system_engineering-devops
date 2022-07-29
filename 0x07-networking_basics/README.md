@@ -36,4 +36,4 @@
 * <code> -x </code>	Use the -x option to show all NetworkDirect listeners, connections, and shared endpoints.
 * <code> -y </code>	The -y switch can be used to show the TCP connection template for all connection. You cannot use -y with any other netstat option.
 time_interval	This is the time, in seconds, that you'd like the netstat command to re-execute automatically, stopping only when you use Ctrl-C to end the loop.
-* /?	Use the help switch to show details about the netstat command's several options.
+* <code> /? </code>	Use the help switch to show details about the netstat command's several options.
