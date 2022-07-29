@@ -1,5 +1,4 @@
 #!/usr/bin/env ruby
-# print detail from message
 scanOne = ARGV[0].scan(/from:(\+?\w+)/)
 print scanOne[0].join + ","
 scanTwo = ARGV[0].scan(/to:(\+?\w+)/)
