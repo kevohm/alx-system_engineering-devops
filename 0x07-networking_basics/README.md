@@ -1,6 +1,6 @@
 # 0x07. Networking basics <b>0</b>
 * OSI Model
-* What it is
+* * What it is
 * How many layers it has
 * How it is organized
 *What is a LAN
