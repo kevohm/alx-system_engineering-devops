@@ -1,3 +1,2 @@
 #!/usr/bin/env bash
-cat ~/.ssh/id_rsa | ssh ubuntu@3.236.123.148 "mkdir -p ~/.ssh && chmod 700 ~/.ssh && cat >> ~/.ssh/school"
-ssh ubuntu@3.236.123.148
+ssh -i ~/.ssh/school ubuntu@3.236.123.148
