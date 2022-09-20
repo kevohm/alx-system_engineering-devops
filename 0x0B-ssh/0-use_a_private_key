@@ -1,2 +1,4 @@
 #!/usr/bin/env bash
-ssh -i ~/.ssh/chool ubuntu@3.95.131.10
+# script to ssh into my alx server
+
+ssh -i ~/.ssh/school ubuntu@3.95.131.10
