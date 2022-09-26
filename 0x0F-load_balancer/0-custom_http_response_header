@@ -1,0 +1,3 @@
+#!bin/bash
+index = /etc/nginx/nginx.conf
+add_header X-Served-By [STUDENT_ID]-web-01 [STUDENT_ID]-web-02
