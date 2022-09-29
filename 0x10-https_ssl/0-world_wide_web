@@ -1,0 +1,10 @@
+#!/bin/bash
+
+get_dom()
+{
+	if [ $# -eq 1 ];then
+		sub="www lb-01 web-01 web-02"
+	else
+		sub=''
+	fi
+}
