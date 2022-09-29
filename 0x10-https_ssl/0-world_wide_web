@@ -9,10 +9,13 @@ domain_information () {
 
 if [ "$#" == 1 ]
 then
-  domain_information "$1" "www"
-  domain_information "$1" "lb-01"
-  domain_information "$1" "web-01"
-  domain_information "$1" "web-02"
+	check=$(dig "$1" +noall +answer | wc -c)
+	if [[ $check -gt 0 ]];then
+		domain_information "$1" "www"
+		domain_information "$1" "lb-01"
+		domain_information "$1" "web-01"
+		domain_information "$1" "web-02"
+	fi
 elif [ "$#" == 2 ]
 then
   domain_information "$1" "$2"
