@@ -1,5 +1,3 @@
-#!/bin/bash
-# script to check whoami on different users
-if [ $# -eq 1 ];then
-	sudo -u $1 whoami
-fi
+#!/usr/bin/env bash
+# Runs the whoami command under the user passed as argument.
+sudo -u "$1" whoami
