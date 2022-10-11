@@ -1,7 +1,2 @@
-# 0x04. Loops, conditions and parsing
-How to create SSH keys
-What is the advantage of using #!/usr/bin/env bash over #!/bin/bash
-How to use while, until and for loops
-How to use if, else, elif and case condition statements
-How to use the cut command
-What are files and other comparison operators, and how to use them
+# alx-system_engineering-devops
+A system administrator, or sysadmin, or admin is a person who is responsible for the upkeep, configuration, and reliable operation of computer systems, especially multi-user computers, such as servers. The system administrator seeks to ensure that the uptime, performance, resources, and security of the computers they manage meet the needs of the users, without exceeding a set budget when doing so.
