@@ -64,3 +64,5 @@ echo "check your available versions"
 sleep 2
 sudo apt install -f mysql-client=5.7* mysql-community-server=5.7* mysql-server=5.7*
 ```
+# sql replication
+[here](https://www.opsdash.com/blog/mysql-replication-howto.html)
